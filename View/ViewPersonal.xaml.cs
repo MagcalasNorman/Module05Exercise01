@@ -12,10 +12,8 @@ public partial class ViewPersonal : ContentPage
         BindingContext = personalViewModel;
     }
 
-    private async void BackMenu
-        
-        (object sender, EventArgs e)
+    private async void BackMenu (object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("//ViewPersonal");
+        await Shell.Current.GoToAsync("//MainPage");
     }
 }
